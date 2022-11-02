@@ -1,0 +1,16 @@
+.container{
+    width: 1000px;
+    height: 1000px;
+    background-color: #D3D0CB;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.definition{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+ul{
+    font-size: 20px;
+}
