@@ -6,7 +6,13 @@
     padding-top: 5px;
 }
 
+h1{
+    font-family: "Oswald";
+
+}
+
 .definition{
+    font-family: "Merriweather";
     margin-left: 100px;
     margin-right: 100px;
 }
