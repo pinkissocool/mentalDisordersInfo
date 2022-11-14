@@ -1,0 +1,21 @@
+.container{
+    width: 1000px;
+    height: 2000px;
+    background-color: #D3D0CB;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+table{
+    border: 5px solid black;
+}
+
+thead{
+    border: 0px;
+    background-color:aquamarine;
+}
+
+tbody{
+    border: 0px;
+    background-color: grey
+}
