@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mental Disorder PSA</title>
+
+   <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="page.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Merriweather">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Merriweather|PT+Serif">
     
 </head>
 <body>
@@ -31,27 +37,32 @@
             <p>Even though mental disorders affect so many people, there are still some misconceptions about them like stereotypes and what they actually are. Stereotypes like that can make it harder for those afflicted by it to get help as they don't wish to be judged by others. This website will go over three categories of mental illnesses, examples of some disorders, and how they affect people afflicted by it.</p>
         </div>
 
-        <div class="photoGallery">
-            <img id="bipolar" src="images/bipolar.jpg" alt="bipolar"></img>
-            <img id="learning" src="images/learning.jpg" alt="learning disability"></img>
-            <img id="ptsd" src="images/ptsd.jpg" alt="ptsd"></img>
+        <div class="sameLine">
+
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+            <div class="photoGallery">
+                <img id="bipolar" src="images/bipolar.jpg" alt="bipolar"></img>
+                <img id="learning" src="images/learning.jpg" alt="learning disability"></img>
+                <img id="ptsd" src="images/ptsd.jpg" alt="ptsd"></img>
+            </div>
+
         </div>
-
-        <form action="https://formspree.io/f/moqbrdzr" method="POST"
->
-            <label>
-                Your email:
-                <input type="email" name="email">
-            </label>
-            <label>
-                Your message:
-                <textarea name="message"></textarea>
-            </label>
-            <!-- your other form fields go here -->
-            <button type="submit">Send</button>
-        </form>
-
-
     </div>
 </body>
 </html>
