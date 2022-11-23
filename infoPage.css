@@ -1,3 +1,4 @@
+/* This is the styling for the table to make it look better and fit with the style of the website */
 table{
     padding: 5px;
     background-color: #8C2F39;
@@ -18,6 +19,8 @@ tbody{
     color: white;
 }
 
+
+/* This is for the images and video that appear in each of the information pages (every page thats not the index), which make it adjust its siz depending on screen size */
 #child, #anxious, video{
     max-width: 100%;
     height: auto;

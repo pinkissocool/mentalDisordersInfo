@@ -1,4 +1,6 @@
 /* Stylesheet shared between the info pages and index */
+
+/* This is where the nav bar gets changed between mobile and desktop display */
 @media screen and (min-width: 601px){
     .bar{
         padding-left: 20px;
@@ -15,7 +17,7 @@
 }
 
 
-
+/* This is all the formatting and styling to make the website look nicer */
 body{
     margin: 0px;
     font-family: "PT Serif";
