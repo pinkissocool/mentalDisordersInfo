@@ -1,6 +1,11 @@
 table{
     padding: 5px;
     background-color: #8C2F39;
+    margin-bottom: 20px;
+}
+
+table, th, td{
+    border: 1px black solid;
 }
 
 thead{
@@ -9,7 +14,13 @@ thead{
 }
 
 tbody{
-    
     background-color: rgb(228, 188, 114);
     color: white;
 }
+
+#child, #anxious, video{
+    max-width: 100%;
+    height: auto;
+}
+
+

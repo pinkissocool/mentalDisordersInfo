@@ -1,11 +1,64 @@
-.definition{
-    font-family: "Oswald";
-    font-size: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 25px;
-    margin-bottom: 25px;
-    color: #8C2F39;
+@media screen and (min-width: 401px) {
+    .definition{
+        font-family: "Oswald";
+        font-size: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 25px;
+        margin-bottom: 25px;
+        color: #8C2F39;
+    }
+
+    .photoGallery{
+        margin-right: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        max-width: 50%;
+        height: auto;
+    }
+
+    #bipolar{
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+    
+    #learning{
+        grid-column-start: span 1;
+        grid-row-start: span 2;
+    }
+    
+    #ptsd{
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+
+    .sameLine{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .definition{
+        font-family: "Oswald";
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 25px;
+        margin-bottom: 25px;
+        color: #8C2F39;
+    }
+
+    .photoGallery{
+        margin-left: auto;
+        margin-right: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1fr, 4);
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 #content{
@@ -26,30 +79,6 @@ img{
     object-fit: cover;
 }
 
-.sameLine{
-    display: flex;
-    flex-direction: row;
-}
 
-#bipolar{
-    grid-column-start: span 1;
-    grid-row-start: span 1;
-}
 
-#learning{
-    grid-column-start: span 1;
-    grid-row-start: span 2;
-}
 
-#ptsd{
-    grid-column-start: span 1;
-    grid-row-start: span 1;
-}
-
-.photoGallery{
-    margin-left: auto;
-    margin-right: 0;
-    display: grid;
-    grid-template-columns: 375px 375px;
-    grid-template-rows: 225px 225px;
-}
